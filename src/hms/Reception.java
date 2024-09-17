@@ -21,19 +21,6 @@ public class Reception extends JFrame {
         panel1.setBackground(new Color(109,164,170));
         add(panel1);
 
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icon/dr.png"));
-        Image image = i1.getImage().getScaledInstance(250,250,Image.SCALE_DEFAULT);
-        ImageIcon i2 = new ImageIcon(image);
-        JLabel label = new JLabel(i2);
-        label.setBounds(1300,0,250,250);
-        panel1.add(label);
-
-        ImageIcon i11 = new ImageIcon(ClassLoader.getSystemResource("icon/hospital.jpg"));
-        Image image1 = i11.getImage().getScaledInstance(300,100,Image.SCALE_DEFAULT);
-        ImageIcon i22 = new ImageIcon(image1);
-        JLabel label1 = new JLabel(i22);
-        label1.setBounds(1000,50,300,100);
-        panel1.add(label1);
 
         JButton btn1 = new JButton("Add New Patient");
         btn1.setBounds(30,15,200,30);
